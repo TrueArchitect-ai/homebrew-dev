@@ -1,26 +1,26 @@
 class Dev < Formula
   desc "TrueArchitect local development tool executor"
   homepage "https://truearchitect.ai"
-  version "0.2.21"
+  version "0.4.2"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.2.21/dev-0.2.21-darwin-arm64.tar.gz"
-      sha256 "202e3c9c9090fee815df18b519e631c2bb802fc1c9c6c09d6cc9fdd6c790f574"
+      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.4.2/dev-0.4.2-darwin-arm64.tar.gz"
+      sha256 "668e29edaa34daf44e11e0f4d9322fe956a6887e2a718eb6ba4671c31d99d8c9"
     else
-      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.2.21/dev-0.2.21-darwin-amd64.tar.gz"
-      sha256 "4999a0d68b7c28ca6519bdd6331c9fb40c2952ebd52e380ea2daaf470eb6b05c"
+      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.4.2/dev-0.4.2-darwin-amd64.tar.gz"
+      sha256 "1eea8a8816c94d349cc3bb7eede2a385f774b54bb8cf9e486a1eb385d12161f8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.2.21/dev-0.2.21-linux-arm64.tar.gz"
-      sha256 "59d6dfa3100399a102c85163eadf4d4639b5ce9aabf6a5262aa52c49e2e7859b"
+      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.4.2/dev-0.4.2-linux-arm64.tar.gz"
+      sha256 "9e60a5ecda9f90fe9ada1013954ce74cf6689a7c653f04609eebf56343c3071d"
     else
-      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.2.21/dev-0.2.21-linux-amd64.tar.gz"
-      sha256 "b60ef7d9f714da6edd57abe8a15d3e38d3146164d7f4e43e248c34bbfd581bb6"
+      url "https://truearchitect-releases.s3.us-west-2.amazonaws.com/dev/v0.4.2/dev-0.4.2-linux-amd64.tar.gz"
+      sha256 "59c1f237efd879160aab75601b267a9dafd94a5561bcf6c18400d693ac7486e8"
     end
   end
 
